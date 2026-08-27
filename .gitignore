@@ -27,5 +27,5 @@ Drivers/CMSIS/DSP/
 .idea/
 *.swp
 *.orig
-*.bak
+*.bak*
 *.ioc.bak
