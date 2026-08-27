@@ -30,7 +30,7 @@
 
 ## 软件栈
 
-- FreeRTOS：多任务调度 + 1 秒软件定时器驱动时钟。
+- FreeRTOS：多任务调度，用软件定时器驱动时钟；任务间通过全局消息队列通信。
 - u8g2（全缓冲 + I2C）：负责 OLED 渲染。
 - STM32 HAL：由 STM32CubeMX 生成。
 - 编译工具：Keil MDK-ARM。
