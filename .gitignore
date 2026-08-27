@@ -1,0 +1,31 @@
+# ---- STM32 / CubeMX build outputs ----
+# Keil MDK-ARM
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/mywatch/
+MDK-ARM/.vscode/
+MDK-ARM/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.lnp
+*.lst
+*.map
+*.htm
+*.dep
+*.uvguix.*
+# IAR EWARM
+EWARM/Output/
+EWARM/Listings/
+EWARM/obj/
+# ---- Unused CMSIS DSP / math libs (not linked by this project) ----
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/DSP/
+# ---- Editor / OS noise ----
+.vscode/
+.idea/
+*.swp
+*.orig
+*.bak
+*.ioc.bak
