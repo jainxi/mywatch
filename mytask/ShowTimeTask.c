@@ -22,7 +22,6 @@ extern float Select_change(float actual,float target,float speed);
 extern QueueHandle_t g_xQueuekey;
 extern TaskHandle_t xShowMenuTaskHandle;
 extern TaskHandle_t xShowTimeTaskHandle;
-extern TaskHandle_t xShowWoodenFishTaskHandle;
 extern TaskHandle_t xShowFlashLightTaskHandle;
 extern TaskHandle_t xShowSettingTaskHandle;
 extern TaskHandle_t xShowCalendarTaskHandle;
