@@ -33,7 +33,7 @@
 - FreeRTOS：多任务调度 + 1 秒软件定时器驱动时钟。
 - u8g2（全缓冲 + I2C）：负责 OLED 渲染。
 - STM32 HAL：由 STM32CubeMX 生成。
-- 编译工具：Keil MDK-ARM 或 IAR EWARM。
+- 编译工具：Keil MDK-ARM。
 
 ## 项目亮点
 
@@ -44,5 +44,5 @@
 
 ## 构建与烧录
 
-- 用 STM32CubeMX 打开 `mywatch.ioc` 重新生成代码，或直接用 Keil 打开 `MDK-ARM/` 工程（IAR 用 `EWARM/`）。
+- 用 STM32CubeMX 打开 `mywatch.ioc` 重新生成代码，或直接用 Keil 打开 `MDK-ARM/` 工程。
 - 编译后烧录到 STM32F103C8T6。
