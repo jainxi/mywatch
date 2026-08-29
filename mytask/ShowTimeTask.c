@@ -68,7 +68,7 @@ typedef struct {
     uint32_t start;    
     uint8_t rolling;    
 } RollCell;
-static RollCell roll_cell[4] = { {0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0} }; /* 0:min_decade 1:min_unit 2:sec_decade 3:sec_unit */
+static RollCell roll_cell[4] = { {0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0} }; 
 
 static uint8_t roll_value_of(uint8_t idx)
 {
